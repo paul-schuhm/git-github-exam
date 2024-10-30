@@ -91,8 +91,6 @@ Réponse :
  - lister les alias des dépôts distants configurés sur le dépôt local
 
 5. Quels sont les 2 types de branches qui existent dans un dépôt git *sur* l'ordinateur d'un·e développeur·se ?
- - les références locales de branches distantes
- - les transactions
  - les locales
  - les distantes
 
