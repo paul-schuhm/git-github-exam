@@ -77,10 +77,8 @@ Réponse :
 ### QCM
 
 1. Qui a inventé le logiciel git ?
-- Larry Page
-- Steve Woznial
 - Linus Torvalds
-- Richard Stallman
+
 
 2. Pour créer un dépôt localement à partir d'un répertoire vide, quelle est la commande git à utiliser ?
  - clone
@@ -106,7 +104,7 @@ Réponse :
  - les locales
  - les distantes
 
-6. À quoi sert la commande `git fetch -p` ? Utiliser la documentation `man git fetch`.
+5. À quoi sert la commande `git fetch -p` ? Utiliser la documentation `man git fetch`.
  - mettre à jour les branches locales par rapport aux branches distantes
  - supprimer les branches locales qui n'existent plus sur le dépôt distant
  - mettre à jour les références locales de branches distantes et supprimer celles qui n'existent plus sur le dépôt distant
@@ -128,7 +126,7 @@ Réponse :
  - /etc/.gitconfig
  - .git/config
 
-10. À la première utilisation, quelles sont les informations nécessaires pour créer un commit ?
+10.  À la première utilisation, quelles sont les informations nécessaires pour créer un commit ?
  - le nom de l'utilisateur git
  - l'adresse mail de l'utilisateur git
  - la date de naissance de l'utilisateur git
@@ -152,55 +150,55 @@ Réponse :
 - Lorsqu'on met à jour l'adresse du dépôt distant pour changer de protocole de communication
 - Lorsqu'il y a des modifications locales qui ne sont pas dans un commit et qu'on essaie de changer de branche
 
-14. Lorsqu'il y a un conflit, qu'indique la commande `git status` sur les fichiers qui demandent une résolution ? 
+14.  Lorsqu'il y a un conflit, qu'indique la commande `git status` sur les fichiers qui demandent une résolution ? 
  - twice modified
  - conflicted
  - both modified
  - warning
   
-15. Dans quelle zone du dépôt est-ce que les modifications sont regroupées *avant* de créer un commit ? 
+15.  Dans quelle zone du dépôt est-ce que les modifications sont regroupées *avant* de créer un commit ? 
  - le stage
  - le workspace
  - le git tree
  - le git storage
 
-16. Lorsque vous résolvez un conflit, quelle est la dernière commande git que vous tapez ? 
+16.  Lorsque vous résolvez un conflit, quelle est la dernière commande git que vous tapez ? 
  - add
  - rm
  - mv
  - commit
 
-17. Quelle est la commande git qui permet de propager ses modifications sur un dépôt distant ? 
+17.  Quelle est la commande git qui permet de propager ses modifications sur un dépôt distant ? 
 - push
 - pull
 - fetch
 - clone
 
-18. Comment s'appelle le mécanisme qui permet d'accepter ou de refuser une contribution sur un dépôt GitHub ? 
+18.  Comment s'appelle le mécanisme qui permet d'accepter ou de refuser une contribution sur un dépôt GitHub ? 
  - Commit Request
  - Change Request
  - Pull Request
  - Push Request
 
-19. Après avoir accepté une contribution sur la branche principale sur Github, que devez vous faire pour mettre à jour votre branche principale localement ? 
+19.  Après avoir accepté une contribution sur la branche principale sur Github, que devez vous faire pour mettre à jour votre branche principale localement ? 
  - à partir d'une branche de développement, faire un commit des derniers changements, et faire un git push
  - faire une nouvelle branche qui part de la branche principale et faire un git pull
  - se mettre sur la branche principale et faire un git push
  - se mettre sur la branche principale et faire un git pull
 
-20. Qu'est-ce que fait la commande `git merge` ?
+20.  Qu'est-ce que fait la commande `git merge` ?
  -  fusionne l'historique d'une branche avec une autre en créant un nouveau commit de fusion;
  -  remplace l'historique d'une branche par celui d'une autre sans créer de commit
  -  annule les derniers commits.
  -  copie un fichier d'une branche à une autre
 
-21. Quelle est une conséquence potentielle de l'utilisation de `git rebase` sur une branche publique ?
+21.  Quelle est une conséquence potentielle de l'utilisation de `git rebase` sur une branche publique ?
  - Les conflits de fusion seront automatiquement résolus.
  - L'historique des commits sera simplifié, rendant la branche plus facile à lire.
  - Les autres collaborateurs ayant déjà récupéré la branche peuvent rencontrer des problèmes de synchronisation avec l'historique modifié.
  - Il n'y a aucun impact, car `rebase` ne modifie rien dans Git.
 
-22. Les branches de suivi (*tracking branch*) sont:
+22.  Les branches de suivi (*tracking branch*) sont:
 
  - Des branches locales qui suivent automatiquement les commits d'une autre branche locale.
  - Des branches locales configurées pour suivre les modifications d'une branche distante.
